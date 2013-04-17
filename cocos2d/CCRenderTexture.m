@@ -396,6 +396,7 @@
 		imageData = UIImageJPEGRepresentation(image, 0.9f);
 
 	else
+        imageData = nil;
 		NSAssert(NO, @"Unsupported format");
 	
 	[image release];
